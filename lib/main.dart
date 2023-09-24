@@ -48,7 +48,7 @@ class _CounterAppState extends State<CounterApp> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Counter value is 5!'),
+          title: Text('Button pressed 5 times'),
           actions: <Widget>[
             TextButton(
               child: Text('OK'),
@@ -73,7 +73,7 @@ class _CounterAppState extends State<CounterApp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              'Counter :',
+              'Count:',
               style: TextStyle(fontSize: 24),
             ),
             Text(
